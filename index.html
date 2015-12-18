@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="blog/css/style.css" />
     <link rel="stylesheet" href="blog/css/style-wide.css" />
     <link rel="stylesheet" href="blog/css/style-noscript.css" />
+    <link rel="stylesheet" href="blog/css/QR-code.css" />
   </noscript>
   <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
@@ -32,8 +33,16 @@
         <nav>
           <ul>
             <li>
-              <a href="tencent://Message/?Uin=191100479&websiteName=51201314.me&Menu=yes" class="fa fa-qq">
-                <span>QQ</span>
+              <a id='qq_pc' href="tencent://Message/?Uin=191100479&websiteName=51201314.me&Menu=yes" class="fa fa-qq">
+                <span>QQ for PC</span>
+              </a>
+              <!-- <a id='qq_phone' href="#qq" class="fa fa-qq">
+                <span>QQ for phone</span>
+              </a> -->
+            </li>
+            <li>
+              <a id='wechat_phone' href="#wechat" class="fa fa-weixin">
+                <span>wechat for phone</span>
               </a>
             </li>
             <li>
@@ -69,7 +78,22 @@
           </ul>
         </nav>
       </header>
-
+      <div class="lightbox" id="qq">
+        <div class="w300 h60">
+          <img src="blog/css/images/qq.jpg" alt="Six Revisions" height="100%" width="100%" />
+        </div>
+        <p class="close"><a href="#">Close
+          <!-- <span>X</span> -->
+        </a></p>
+      </div>
+      <div class="lightbox" id="wechat">
+        <div class="w300 h60">
+          <img src="blog/css/images/wechat.jpg" alt="Six Revisions" height="100%" width="100%" />
+        </div>
+        <p class="close"><a href="#">Close
+          <!-- <span>X</span> -->
+        </a></p>
+      </div>
       <!-- Footer -->
       <footer id="footer">
         <span class="copyright">&copy; Design: <a href="http://51201314.me">51201314</a>.</span>
@@ -77,7 +101,9 @@
 
     </div>
   </div>
-  <script type="text/javascript">
+  <script>
+  </script>
+  <script>
     var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
     document.write(unescape("%3Cspan id='cnzz_stat_icon_1256996857'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256996857%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
   </script>
