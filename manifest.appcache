@@ -11,3 +11,6 @@ timeline/style.css
 
 FALLBACK:
 / /offline.html
+
+NETWORK:
+*
