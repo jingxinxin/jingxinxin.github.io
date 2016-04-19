@@ -1,6 +1,7 @@
 CACHE MANIFEST
-# 2016-4-19 v1.1.0
+# 2016-4-19 v1.2.0
 CACHE:
+index.html
 blog/css/style.css
 blog/css/QR-code.css
 blog/css/font-awesome.min.css
