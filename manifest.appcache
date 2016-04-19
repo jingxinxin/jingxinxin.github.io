@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# 2016-4-19 v1.0.0
+CACHE:
+blog/css/style.css
+blog/css/QR-code.css
+blog/js/skel.min.js
+blog/js/init.js
+/timeline/*
+http://7xscr5.com1.z0.glb.clouddn.com/qq.jpg
+http://7xscr5.com1.z0.glb.clouddn.com/wechat.jpg
