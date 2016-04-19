@@ -1,8 +1,13 @@
 CACHE MANIFEST
-# 2016-4-19 v1.0.2
+# 2016-4-19 v1.0.4
 CACHE:
 blog/css/style.css
 blog/css/QR-code.css
+blog/css/font-awesome.min.css
 blog/js/skel.min.js
 blog/js/init.js
-timeline/*.*
+timeline/index.html
+timeline/style.css
+
+FALLBACK:
+/ /offline.html
