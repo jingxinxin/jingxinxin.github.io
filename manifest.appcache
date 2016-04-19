@@ -1,8 +1,8 @@
 CACHE MANIFEST
-# 2016-4-19 v1.0.0
+# 2016-4-19 v1.0.2
 CACHE:
 blog/css/style.css
 blog/css/QR-code.css
 blog/js/skel.min.js
 blog/js/init.js
-timeline/
+timeline/*.*
