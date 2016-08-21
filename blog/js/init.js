@@ -55,6 +55,7 @@ window.onload = function() {
         break;
       default:
         document.getElementById("bg").style.background = "url(" + images[sum] + ")";
+        document.getElementById("bg").style.backgroundSize = "contain";
         break;
     }
     if (!window.IsPC()) {
