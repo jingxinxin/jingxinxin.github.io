@@ -43,10 +43,10 @@ skel.init({
 window.onload = function() {
     document.body.className = '';
     var sum = Math.floor(Math.random() * 4);
-    var images_bg_url = "http://7xscr5.com1.z0.glb.clouddn.com/bg.jpg" //blog/css/images/bg.jpg
-    var images_bg_url1 = "http://7xscr5.com1.z0.glb.clouddn.com/bg1.jpg" //blog/css/images/bg1.jpg
-    var images_bg_url2 = "http://7xscr5.com1.z0.glb.clouddn.com/bg2.jpg" //blog/css/images/bg2.jpg
-    var images_bg_url3 = "http://7xscr5.com1.z0.glb.clouddn.com/bg3.jpg" //blog/css/images/bg3.jpg
+    var images_bg_url = "http://7xscr5.com1.z0.glb.clouddn.com/bg.jpg"; //blog/css/images/bg.jpg
+    var images_bg_url1 = "http://7xscr5.com1.z0.glb.clouddn.com/bg1.jpg"; //blog/css/images/bg1.jpg
+    var images_bg_url2 = "http://7xscr5.com1.z0.glb.clouddn.com/bg2.jpg"; //blog/css/images/bg2.jpg
+    var images_bg_url3 = "http://7xscr5.com1.z0.glb.clouddn.com/bg3.jpg"; //blog/css/images/bg3.jpg
     var images = [];
     images.push(images_bg_url, images_bg_url1, images_bg_url2, images_bg_url3);
     switch (sum) {
@@ -61,7 +61,7 @@ window.onload = function() {
     if (!window.IsPC()) {
       document.getElementById("qq_pc").href = '#qq';
     }
-  }
+  };
   // IsPC
 window.IsPC = function() {
     var userAgentInfo = navigator.userAgent;
@@ -74,16 +74,16 @@ window.IsPC = function() {
       }
     }
     return flag;
-  }
+  };
   // Prevent scrolling on touch.
 window.ontouchmove = function() {
   return false;
-}
+};
 
 // Fix scroll position on orientation change.
 window.onorientationchange = function() {
   document.body.scrollTop = 0;
-}
+};
 
 /*
 
