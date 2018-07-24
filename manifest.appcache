@@ -25,6 +25,7 @@ timeline/index.html
 timeline/style.css
 blog/fonts/fontawesome-webfont.woff
 blog/fonts/fontawesome-webfont.ttf
+
 FALLBACK:
 /404.html /offline.html
 
