@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2018-7-24 v1.0.0
+# 2018-7-24 v1.1.0
 CACHE:
 index.html
 blog/css/font-awesome.min.css
@@ -7,18 +7,6 @@ blog/css/font-googleapis.css
 blog/css/QR-code.css
 blog/css/skel.css
 blog/css/style.css
-blog/css/style-mobile.css
-blog/css/style-mobilep.css
-blog/css/style-normal.css
-blog/css/style-wide.css
-blog/css/images/bg.jpg
-blog/css/images/bg1.jpg
-blog/css/images/bg2.jpg
-blog/css/images/bg3.jpg
-blog/css/images/overlay.svg
-blog/css/images/overlay-pattern.png
-blog/css/images/qq.jpg
-blog/css/images/wechat.jpg
 blog/js/init.js
 blog/js/skel.min.js
 timeline/index.html
