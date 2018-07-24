@@ -10,7 +10,6 @@ blog/css/style.css
 blog/css/style-mobile.css
 blog/css/style-mobilep.css
 blog/css/style-normal.css
-blog/css/style-noscript.css
 blog/css/style-wide.css
 blog/css/images/bg.jpg
 blog/css/images/bg1.jpg
@@ -24,7 +23,8 @@ blog/js/init.js
 blog/js/skel.min.js
 timeline/index.html
 timeline/style.css
-
+blog/fonts/fontawesome-webfont.woff
+blog/fonts/fontawesome-webfont.ttf
 FALLBACK:
 /404.html /offline.html
 
