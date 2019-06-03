@@ -1,18 +1,18 @@
 CACHE MANIFEST
-# 2018-7-24 v1.1.0
+# 2018-6-03 v1.1.0
 CACHE:
 index.html
-blog/css/font-awesome.min.css
-blog/css/font-googleapis.css
-blog/css/QR-code.css
-blog/css/skel.css
-blog/css/style.css
-blog/js/init.js
-blog/js/skel.min.js
+assets/css/font-awesome.min.css
+assets/css/font-googleapis.css
+assets/css/QR-code.css
+assets/css/skel.css
+assets/css/style.css
+assets/js/init.js
+assets/js/skel.min.js
 timeline/index.html
 timeline/style.css
-blog/fonts/fontawesome-webfont.woff
-blog/fonts/fontawesome-webfont.ttf
+assets/fonts/fontawesome-webfont.woff
+assets/fonts/fontawesome-webfont.ttf
 
 FALLBACK:
 /404.html /offline.html

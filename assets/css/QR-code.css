@@ -12,4 +12,4 @@ html, body { height: 100%; overflow: hidden; width: 100%; margin: 0; padding: 0;
 			.scroll { overflow-y: scroll; padding: 0 1em; }
 			.boxfocus { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
 			.boxfocus div {	background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
-			.boxfocus .close a { background-image: url('trans.png'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			/*.boxfocus .close a { background-image: url('images/qq.jpg'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }*/
