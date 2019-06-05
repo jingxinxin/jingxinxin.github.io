@@ -1,21 +1,23 @@
 CACHE MANIFEST
-# 2019-06-04 v1.1.1
+# 2019-06-05 v1.1.1
 CACHE:
 index.html
-assets/css/font-awesome.min.css
+
 assets/css/font-googleapis.css
 assets/css/QR-code.css
 assets/css/skel.css
 assets/css/style.css
 assets/js/init.js
 assets/js/skel.min.js
+assets/js/Valine.min.js
 timeline/index.html
 timeline/style.css
 assets/fonts/fontawesome-webfont.woff
 assets/fonts/fontawesome-webfont.ttf
 
 FALLBACK:
-/404.html /offline.html
+/404.html
+/offline.html
 
 NETWORK:
 *
